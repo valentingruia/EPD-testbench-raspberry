@@ -1,0 +1,7 @@
+{
+"files.exclude": {
+    "VSCodePython.bat": true,
+    "**/.git": true,
+    "**/.vscode-ext": true
+    }
+}
