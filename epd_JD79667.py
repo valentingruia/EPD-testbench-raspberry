@@ -288,8 +288,6 @@ class Inky:
 
         buf = region.flatten()
 
-        print(f'buf len {len(buf)}')
-
 #        self._color_test_horizontal()
 
         bin_array = bytearray(len(buf))
@@ -303,10 +301,9 @@ class Inky:
                 ((c & 0x03) << 2) |
                 (d & 0x03)
                 for a, b, c, d in zip(bin_array[::4], bin_array[1::4], bin_array[2::4], bin_array[3::4])]
-        print(f'buf len sec {len(buf)}')
+#        print(f'buf len sec {len(buf)}')
 
         self._update(buf)
-
 
         # data_list = bytearray(len(buf))
         # for temp in buf:
