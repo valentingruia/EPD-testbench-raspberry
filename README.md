@@ -1,15 +1,14 @@
 # EPD testbench raspberry
-The project is used to become familiar and test the Electronic Paper Displays (EPD) in a quick, python based environment.
+The project was created to become familiar and test the Electronic Paper Displays (EPD) in a quick, python based environment.
 
-My hardware setup:
+# Hardware setup:
 * I got a development kit with GDEY0266F52H + DESPI-C02 [from aliexpress](www.aliexpress.com/item/1005009549160716.html)
 * raspberry pi 2w
 
 ![raspi](.\Doc\Images\setup_raspi.jpg)
 ![display](.\Doc\Images\setup_display.jpg)
 
-Wires connection:
-
+## Wire connections:
 |EPD pin name|Epd pin #|wire color|Rasp pin #|Rasp pin name|
 |:---|:---|:---|:---|:---|
 |busy|8|white|11|13|
@@ -23,10 +22,10 @@ Wires connection:
 
 
 # Software stack
-The python driver is modified from [Inky repozitory](https://github.com/pimoroni/inky/blob/main/inky/inky_jd79668.py)
+The python driver is modified from [Inky repository](https://github.com/pimoroni/inky/blob/main/inky/inky_jd79668.py)
 
 
-I used the environment from pimorony but didn't use the inky library. This dependency can be replaced:
+I used the environment from pimorony but didn't use the inky library. This dependency can be replaced in the future:
 ```bash
 git clone https://github.com/pimoroni/inky
 cd inky
