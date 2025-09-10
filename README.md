@@ -2,11 +2,11 @@
 The project was created to become familiar and test the Electronic Paper Displays (EPD) in a quick, python based environment.
 
 # Hardware setup:
-* I got a development kit with GDEY0266F52H + DESPI-C02 [from aliexpress](www.aliexpress.com/item/1005009549160716.html)
+* I got a development kit with GDEY0266F52H + DESPI-C02 [from aliexpress](https://www.aliexpress.com/item/1005009549160716.html)
 * raspberry pi 2w
 
-![raspi](https://github.com/[username]/[reponame]/blob/[branch]/Doc/Images/setup_raspi.jpg?raw=true)
-![display](https://github.com/[username]/[reponame]/blob/[branch]/Doc/Images/setup_display.jpg?raw=true)
+![raspi](./Doc/Images/setup_raspi.jpg?raw=true)
+![display](./Doc/Images/setup_display.jpg?raw=true)
 
 ## Wire connections:
 |EPD pin name|Epd pin #|wire color|Rasp pin #|Rasp pin name|
